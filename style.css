@@ -1,123 +1,104 @@
-
-
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body
-{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-body
-{   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: #313131;
-    
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #313131;
 }
 
-
-hr
-{
-    margin: 10px 0;
-    border-top: 3px solid #e2e1e1;
-    border-radius: 5px;
+hr {
+  margin: 10px 0;
+  border-top: 3px solid #e2e1e1;
+  border-radius: 5px;
 }
 
-
-.container
-{   
-    width: 100%;
-    border: 3px solid #ad0606;
-    border-radius: 15px;
-    padding: 10px;
-    max-width: 400px;
-    min-height: 300px;
-    background:  #af2020 ;
-    text-align: center;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.685);
-   
+.container {
+  width: 100%;
+  border: 3px solid #ad0606;
+  border-radius: 15px;
+  padding: 10px;
+  max-width: 400px;
+  min-height: 300px;
+  background: #af2020;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.685);
 }
-.imagem, #imgPokemon
-{
-    text-align: center;
+.imagem,
+#imgPokemon {
+  text-align: center;
 }
 
-.imagem img
-{
-    width: 100%;
+.imagem img {
+  width: 100%;
 }
 
-.imagem2 img
-{
-    width: 40%;
+.imagem2 img {
+  width: 40%;
 }
 
-.group-form
-{
-    padding: 5px 0;
+.group-form {
+  padding: 5px 0;
 }
 
-.group-form label
-{
-    font-weight: 900;
-    color: #ffffff;
+.group-form label {
+  font-weight: 900;
+  color: #ffffff;
 }
 
-.group-form input
-{
-    width: 100%;
-    padding: 15px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
-    border-radius: 7px;
-    margin: 5px 0;
-    text-align: center;
-    justify-content: space-between;
-    
-    
+.group-form input {
+  width: 100%;
+  padding: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  border-radius: 7px;
+  margin: 5px 0;
+  text-align: center;
+  justify-content: space-between;
 }
 
-.group-form input[type=submit]
-{
-    background: #0782d4;
-    font-weight: 900;
-    font-size: 0.8rem;
-    color: white;
-    letter-spacing: 1px;
-    cursor: pointer; 
+.group-form input[type="submit"] {
+  background: #0782d4;
+  font-weight: 900;
+  font-size: 0.8rem;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
-
-#imgPokemon img
-{
-    width: 40%;
-    border: 1px solid #333;
-    border-radius: 10%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.685);
-    margin: 17px;
-    background-color: #cecdcd;
+#imgPokemon img {
+  width: 40%;
+  border: 1px solid #333;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.685);
+  margin: 17px;
+  background-color: #cecdcd;
 }
 
-#content
-{
-    width:100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 10px;
-    background: #fad955;
-    box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.685);
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 1rem;
-    text-align: center;
-    color: rgb(34, 34, 34);
+#content {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+  background: #fad955;
+  box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.685);
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(34, 34, 34);
 }
