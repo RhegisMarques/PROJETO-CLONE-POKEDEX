@@ -15,8 +15,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Fira Code, sans-serif;
   background: #313131;
 }
 
@@ -62,8 +61,7 @@ hr {
 .group-form input {
   width: 100%;
   padding: 15px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:Fira Code, sans-serif;
   text-transform: uppercase;
   border-radius: 7px;
   margin: 5px 0;
@@ -91,8 +89,7 @@ hr {
 
 #content {
   width: 100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Fira Code, sans-serif;
   padding: 10px;
   background: #fad955;
   box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.685);
